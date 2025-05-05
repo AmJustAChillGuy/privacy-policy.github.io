@@ -20,7 +20,6 @@ The data we collect is used exclusively to provide and improve AsTrazu’s funct
 
 - **Processing Commands**:
   - **Prefix Commands**: Reading message content to execute commands like `timeout`, `kick`, `clear` for moderation; `blackjack`, `slots`, `khlakhlouk` for gambling; and `cash`, `daily`, `transfer` for economy.
-  - **Slash Commands**: Handling administrative commands like `/deleteaccount` for data management and `/togglekhlakhlouk(in feature)` for message content opt-out.
 - **Feature Delivery**:
   - Moderation: Managing server safety with commands like `timeout` (e.g., `timeout @user 10` to timeout a user for 10 minutes), `kick`, and `clear`.
   - Gambling: Enabling games like `blackjack`, `slots`, and `khlakhlouk`. The Khla Khlouk Dice Game uses message content to process user bets, roll virtual dice, determine outcomes, and update a leaderboard with Khmer-themed embeds to promote cultural engagement and interaction.
@@ -36,13 +35,11 @@ The data we collect is used exclusively to provide and improve AsTrazu’s funct
   - This data is stored off-platform (outside of Discord) for up to 30 days to ensure functionality (e.g., tracking user balances or timeout records).
   - All stored data is encrypted at rest using AES-256 encryption, in compliance with Discord’s Developer Policy.
 - **Command Usage Data**: Anonymized usage logs are stored for up to 30 days for debugging purposes and then deleted.
-- **Opt-Out Settings**: If you opt out of the Khla Khlouk Dice Game using `/togglekhlakhlouk`, this preference is stored in our database (associated with your user ID) until you request deletion of your data.
 
 ## How Can You Request Data Deletion?
 
 You can request the deletion of your data at any time by:
 
-- Running the `/deleteaccount` command in the bot, which will immediately remove all stored data associated with your user ID (e.g., economy balances, gambling records, moderation history, opt-out settings).
 - Contacting us via our Discord support server: [https://discord.gg/4vBzJaaVGv](https://discord.gg/4vBzJaaVGv).
 - Emailing us at: [senghongly8828@gmail.com](mailto:senghongly8828@gmail.com).
 
@@ -58,24 +55,23 @@ No, we do not use your data, including message content or user information, to t
 
 ## How Can You Opt Out?
 
-- **Message Content**: You can opt out of message content tracking for the Khla Khlouk Dice Game by running the `/togglekhlakhlouk` command, which disables the game feature for your account and prevents the bot from reading your messages for this purpose. Server admins can also disable the game for the entire server using the `/khlakhlouk disable` command. For other prefix commands (e.g., `blackjack`, `transfer`), server admins can restrict the bot’s access to specific channels using Discord’s permission settings, preventing the bot from reading messages in those channels.
-- **Server Members Data**: You cannot opt out of server members data processing if you interact with features like economy, gambling, or moderation, as this data is necessary for those features to work. You can request deletion of your data using the `/deleteaccount` command to stop further processing.
+- **Message Content**: Server admins can restrict the bot’s access to specific channels using Discord’s permission settings, preventing the bot from reading messages in those channels for features like `blackjack`, `transfer`, or the Khla Khlouk Dice Game.
+- **Server Members Data**: You cannot opt out of server members data processing if you interact with features like economy, gambling, or moderation, as this data is necessary for those features to work. You can request deletion of your data by contacting us (see "How Can You Request Data Deletion?" above).
 
 ## Your Rights
 
 You have the right to:
 
 - Understand how your data is used (as outlined in this policy).
-- Request deletion of your data using the `/deleteaccount` command or by contacting us.
-- Restrict the bot’s access to your data by adjusting server or channel permissions (via Discord’s settings2010-01-01T00:00:00+00:00settings).
-- Opt out of message content tracking for the Khla Khlouk Dice Game using the `/togglekhlakhlouk` command.
+- Request deletion of your data by contacting us (see "How Can You Request Data Deletion?" above).
+- Restrict the bot’s access to your data by adjusting server or channel permissions (via Discord’s settings).
 - Contact us for more information about your data (see contact details below).
 
 ## Security of Your Data
 
 We take security seriously:
 
-- All sensitive user data (e.g., usernames, avatars, economy balances, opt-out settings) stored off-platform is encrypted at rest using AES-256 encryption, ensuring compliance with Discord’s Developer Policy.
+- All sensitive user data (e.g., usernames, avatars, economy balances) stored off-platform is encrypted at rest using AES-256 encryption, ensuring compliance with Discord’s Developer Policy.
 - We implement strict access controls to protect your data from unauthorized access.
 
 ## Changes to This Privacy Policy
