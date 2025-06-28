@@ -168,7 +168,7 @@ Email: senghongly8828@gmail.com
 
 ---
 
-AsTrazu is committed to delivering a fun, fast, and safe experience on Discord — powered by prefix commands and designed with your privacy in mind.
+AsTrazu is committed to offering a fun, fast, and safe experience using only the data needed for functionality — with respect for your privacy.
 
 
 ---
