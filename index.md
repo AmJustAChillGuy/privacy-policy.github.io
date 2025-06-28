@@ -93,7 +93,7 @@ Usage Logs:
 
 Yes. At any time, you may request that we delete your stored data by:
 
-Contacting us via our support server: https://discord.gg/4vBzJaaVGv
+Contacting us via our support server: https://discord.gg/JDEHYsYWBZ
 
 Emailing us at: senghongly8828@gmail.com
 
@@ -160,7 +160,7 @@ https://amjustachillguy.github.io/privacy-policy.github.io/
 
 If you have any questions or concerns:
 
-Support Discord Server: https://discord.gg/4vBzJaaVGv
+Support Discord Server: [https://discord.gg/4vBzJaaVGv](https://discord.gg/JDEHYsYWBZ)
 
 Email: senghongly8828@gmail.com
 
