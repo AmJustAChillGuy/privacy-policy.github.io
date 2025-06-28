@@ -160,7 +160,7 @@ https://amjustachillguy.github.io/privacy-policy.github.io/
 
 If you have any questions or concerns:
 
-Support Discord Server: [https://discord.gg/4vBzJaaVGv](https://discord.gg/JDEHYsYWBZ)
+Support Discord Server: [https://discord.gg/JDEHYsYWBZ](https://discord.gg/JDEHYsYWBZ)
 
 Email: senghongly8828@gmail.com
 
