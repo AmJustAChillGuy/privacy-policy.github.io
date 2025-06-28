@@ -1,90 +1,174 @@
-# Privacy Policy for AsTrazu
-
-**Last Updated: May 06, 2025**
-
-Thank you for using AsTrazu! This Privacy Policy explains how we collect, use, and protect your data when you interact with our Discord bot, AsTrazu. We are committed to safeguarding your privacy and ensuring transparency in our data practices in compliance with Discord’s Developer Policy.
-
-## What Data Do We Collect?
-
-AsTrazu collects the following data to provide its features and functionality:
-
-- **Message Content**: We process the content of messages in Discord servers to execute prefix commands for moderation (e.g., `timeout`, `kick`, `clear`), gambling (e.g., `blackjack`, `slots`, `khlakhlouk`), and economy (e.g., `cash`, `daily`, `transfer`). For example, in the **Khla Khlouk Dice Game**, the bot reads messages to process user bets (e.g., "ភ្នាល់ ខ្លា 100" meaning "bet tiger 100") on one of six symbols (tiger, crab, fish, cock, gourd, stag), inspired by the traditional Cambodian game played during Khmer New Year. This feature celebrates Cambodian culture and encourages community engagement.
-- **User and Server Information**:
-  - **Server Members Data**: We access user IDs, usernames, nicknames, and avatars to support features like economy (e.g., `cash`, `transfer`), gambling leaderboards (e.g., for `khlakhlouk`), and moderation actions (e.g., `timeout`, `kick`). This data is also used to verify roles and manage permissions for certain commands.
-  - **Server Data**: We collect server IDs to ensure the bot functions correctly within Discord servers and to associate user data with specific servers (e.g., for economy or gambling systems).
-- **Command Usage Data**: We temporarily log anonymized command usage (e.g., frequency of command usage) to monitor bot performance and troubleshoot issues. This does not include message content or personally identifiable information.
-
-## How Do We Use Your Data?
-
-The data we collect is used exclusively to provide and improve AsTrazu’s functionality, including:
-
-- **Processing Commands**:
-  - **Prefix Commands**: Reading message content to execute commands like `timeout`, `kick`, `clear` for moderation; `blackjack`, `slots`, `khlakhlouk` for gambling; and `cash`, `daily`, `transfer` for economy.
-- **Feature Delivery**:
-  - Moderation: Managing server safety with commands like `timeout` (e.g., `timeout @user 10` to timeout a user for 10 minutes), `kick`, and `clear`.
-  - Gambling: Enabling games like `blackjack`, `slots`, and `khlakhlouk`. The Khla Khlouk Dice Game uses message content to process user bets, roll virtual dice, determine outcomes, and update a leaderboard with Khmer-themed embeds to promote cultural engagement and interaction.
-  - Economy: Managing virtual currency with commands like `cash`, `daily`, and `transfer` (e.g., `transfer @user 500` to send 500 coins).
-- **Bot Operation**: Using server and user IDs to ensure commands work correctly across servers, especially in over 100 servers within Cambodian Discord communities.
-- **Improvement**: Analyzing anonymized command usage to debug and enhance bot performance.
-
-## Do We Store Your Data?
-
-- **Message Content**: We do not store message content. Messages are processed in real-time to execute commands or process bets in the Khla Khlouk Dice Game and are discarded immediately after use.
-- **User and Server Data**:
-  - We temporarily store user IDs, usernames, nicknames, avatars, and server IDs to support features like economy, gambling leaderboards, and moderation actions.
-  - This data is stored off-platform (outside of Discord) for up to 30 days to ensure functionality (e.g., tracking user balances or timeout records).
-  - All stored data is encrypted at rest using AES-256 encryption, in compliance with Discord’s Developer Policy.
-- **Command Usage Data**: Anonymized usage logs are stored for up to 30 days for debugging purposes and then deleted.
-
-## How Can You Request Data Deletion?
-
-You can request the deletion of your data at any time by:
-
-- Contacting us via our Discord support server: [https://discord.gg/4vBzJaaVGv](https://discord.gg/4vBzJaaVGv).
-- Emailing us at: [senghongly8828@gmail.com](mailto:senghongly8828@gmail.com).
-
-Once deleted, your data cannot be recovered.
-
-## Do We Share Your Data?
-
-We do not share your data with any third parties. All data processing occurs within our systems, and we do not transfer data outside of Discord’s ecosystem except for temporary storage as described above.
-
-## Do We Use Data for AI or Machine Learning?
-
-No, we do not use your data, including message content or user information, to train AI or machine learning models. Your data is only used to provide and improve AsTrazu’s functionality.
-
-## How Can You Opt Out?
-
-- **Message Content**: Server admins can restrict the bot’s access to specific channels using Discord’s permission settings, preventing the bot from reading messages in those channels for features like `blackjack`, `transfer`, or the Khla Khlouk Dice Game.
-- **Server Members Data**: You cannot opt out of server members data processing if you interact with features like economy, gambling, or moderation, as this data is necessary for those features to work. You can request deletion of your data by contacting us (see "How Can You Request Data Deletion?" above).
-
-## Your Rights
-
-You have the right to:
-
-- Understand how your data is used (as outlined in this policy).
-- Request deletion of your data by contacting us (see "How Can You Request Data Deletion?" above).
-- Restrict the bot’s access to your data by adjusting server or channel permissions (via Discord’s settings).
-- Contact us for more information about your data (see contact details below).
-
-## Security of Your Data
-
-We take security seriously:
-
-- All sensitive user data (e.g., usernames, avatars, economy balances) stored off-platform is encrypted at rest using AES-256 encryption, ensuring compliance with Discord’s Developer Policy.
-- We implement strict access controls to protect your data from unauthorized access.
-
-## Changes to This Privacy Policy
-
-We may update this Privacy Policy as needed. Changes will be reflected on this page, and we will notify users via our Discord support server or through the bot’s `help` command. The latest version is always available at: [https://amjustachillguy.github.io/privacy-policy.github.io/](https://amjustachillguy.github.io/privacy-policy.github.io/).
-
-## Contact Us
-
-If you have questions about this Privacy Policy or how we handle your data, please:
-
-- Join our support server: [https://discord.gg/4vBzJaaVGv](https://discord.gg/4vBzJaaVGv).
-- Email us at: [senghongly8828@gmail.com](mailto:senghongly8828@gmail.com).
 
 ---
 
-AsTrazu is committed to delivering a fun, engaging experience on Discord while prioritizing your privacy and data security.
+Privacy Policy for AsTrazu
+
+Last Updated: May 06, 2025
+
+Thank you for using AsTrazu! This Privacy Policy explains how we collect, use, and protect your data when interacting with our Discord bot. We are committed to transparency and to respecting your privacy, in full compliance with Discord’s Developer Policy.
+
+
+---
+
+📌 What Data Do We Collect?
+
+AsTrazu collects and processes only the data required to support its core features. These include:
+
+Message Content
+We process message content only to detect and handle prefix-based commands (e.g., Ztransfer, Zdaily, Zkhlakhlouk 100). These messages are required to:
+
+Start gambling games like Khla Khlouk
+
+Handle virtual currency transfers
+
+Process simple commands like Zdaily or Zwork
+
+
+▶️ We do not store message content. It is processed in real time and discarded immediately after.
+
+User and Server Metadata
+
+User IDs, usernames, nicknames, and avatars — to personalize economy features, profiles, and leaderboards.
+
+Server IDs — to associate user data (coins, activity) with the correct server.
+
+
+Command Usage Data
+We log anonymized data on how often commands are used. This helps us maintain performance and fix issues. No personal or message content is stored in these logs.
+
+
+
+---
+
+⚙️ How Do We Use Your Data?
+
+We only use collected data to operate AsTrazu’s features:
+
+Prefix Command Execution
+We process message content only when a user sends a command using a prefix (e.g., Zkhlakhlouk 100, Ztransfer @user 500). This allows the bot to:
+
+Read and respond to user-initiated prefix commands
+
+Provide fast, accessible gameplay and economy tools
+
+
+Economy & Gambling Features
+We store user balance and game status temporarily to support features like:
+
+Khla Khlouk Dice Game
+
+Blackjack, Slots
+
+Coin transfers (Ztransfer), daily rewards, and profile tracking
+
+
+Bot Performance & Safety
+Server and user IDs are used to ensure your settings and balances are properly scoped to your server. Anonymized usage data helps us fix bugs and improve the experience.
+
+
+
+---
+
+🔐 Do We Store Your Data?
+
+Message Content:
+❌ No. We do not store message content. It is used in real time to process commands and is then discarded.
+
+User & Server Data:
+✅ Yes — user IDs, coins, profile info, and server IDs are temporarily stored off-platform (e.g., MongoDB) to support your economy and profile data.
+
+Stored for a maximum of 30 days
+
+Encrypted using AES-256 at rest
+
+
+Usage Logs:
+✅ Yes — command usage frequency is stored (anonymized) to improve performance. Deleted after 30 days.
+
+
+
+---
+
+🔄 Can You Request Data Deletion?
+
+Yes. At any time, you may request that we delete your stored data by:
+
+Contacting us via our support server: https://discord.gg/4vBzJaaVGv
+
+Emailing us at: senghongly8828@gmail.com
+
+
+Once deleted, your data cannot be recovered.
+
+
+---
+
+🤝 Do We Share Your Data?
+
+No. We never sell, share, or transfer your data to third parties. All data is used only for in-bot functionality and stored securely on our systems.
+
+
+---
+
+🤖 Do We Use Your Data for AI or Machine Learning?
+
+No. We do not use message content, user data, or any collected information for AI training, machine learning, or profiling.
+
+
+---
+
+🚫 How Can You Opt Out?
+
+Message Content:
+Server admins can remove the bot’s permission to read messages in specific channels by adjusting channel permissions.
+
+Stored Data:
+You can request full data deletion using our contact methods listed above.
+
+
+> Important: Interacting with economy or gambling features requires storing basic user ID and balance data for functionality.
+
+
+
+
+---
+
+🔒 Data Security
+
+We take your data security seriously:
+
+All sensitive data is encrypted (AES-256)
+
+Access is restricted to bot maintainers only
+
+We follow Discord’s Developer Policy and secure coding practices
+
+
+
+---
+
+🔄 Changes to This Policy
+
+We may update this Privacy Policy from time to time. All updates will be posted on our GitHub site and shared via the bot’s help or about command.
+Latest version always available at:
+https://amjustachillguy.github.io/privacy-policy.github.io/
+
+
+---
+
+📬 Contact Us
+
+If you have any questions or concerns:
+
+Support Discord Server: https://discord.gg/4vBzJaaVGv
+
+Email: senghongly8828@gmail.com
+
+
+
+---
+
+AsTrazu is committed to delivering a fun, fast, and safe experience on Discord — powered by prefix commands and designed with your privacy in mind.
+
+
+---
