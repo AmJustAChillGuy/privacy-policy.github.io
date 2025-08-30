@@ -1,40 +1,47 @@
-
----
-
-Privacy Policy for AsTrazu
+📜 Privacy Policy for AsTrazu
 
 Last Updated: May 06, 2025
 
-Thank you for using AsTrazu! This Privacy Policy explains how we collect, use, and protect your data when interacting with our Discord bot. We are committed to transparency and to respecting your privacy, in full compliance with Discord’s Developer Policy.
+Thank you for using AsTrazu! This Privacy Policy explains how we collect, process, and protect your data when you interact with our Discord bot. We are committed to transparency, privacy, and compliance with Discord’s Developer Policy.
 
 
 ---
 
 📌 What Data Do We Collect?
 
-AsTrazu collects and processes only the data required to support its core features. These include:
-
 Message Content
-We process message content only to detect and handle prefix-based commands (e.g., Ztransfer, Zdaily, Zkhlakhlouk 100). These messages are required to:
 
-Start gambling games like Khla Khlouk
+We process message content only when required to support bot functionality:
 
-Handle virtual currency transfers
+Security Features: Detect and block malicious/spam links (anti-link), identify raid/nuke attempts, and enforce moderation rules.
 
-Process simple commands like Zdaily or Zwork
+Command Processing: Handle prefix-based commands (e.g., Zdaily, Ztransfer, Zwork) for economy and utility features.
 
 
-▶️ We do not store message content. It is processed in real time and discarded immediately after.
+➡️ We do not store message content. Messages are scanned in real time and immediately discarded.
+
+
+---
 
 User and Server Metadata
 
-User IDs, usernames, nicknames, and avatars — to personalize economy features, profiles, and leaderboards.
+We collect the following information to support economy, security, and moderation features:
 
-Server IDs — to associate user data (coins, activity) with the correct server.
+User IDs, usernames, nicknames, and avatars – for economy profiles, leaderboards, and moderation actions.
 
+Server IDs – to scope user data (balances, settings, security rules) correctly to each server.
+
+
+
+---
 
 Command Usage Data
-We log anonymized data on how often commands are used. This helps us maintain performance and fix issues. No personal or message content is stored in these logs.
+
+We log anonymized command usage statistics (e.g., how often a command is used).
+
+Helps us improve performance and fix bugs.
+
+Does not include personal information or message content.
 
 
 
@@ -42,28 +49,13 @@ We log anonymized data on how often commands are used. This helps us maintain pe
 
 ⚙️ How Do We Use Your Data?
 
-We only use collected data to operate AsTrazu’s features:
+Prefix & Slash Commands – Detect and respond to commands like Ztransfer @user 100 or Zkhlakhlouk 50.
 
-Prefix Command Execution
-We process message content only when a user sends a command using a prefix (e.g., Zkhlakhlouk 100, Ztransfer @user 500). This allows the bot to:
+Security Features – Real-time scanning of message content to block malicious links, prevent raids, and detect spam/nuke actions.
 
-Read and respond to user-initiated prefix commands
+Economy System – Temporary storage of user balances, coins, and game data (slots, dice, blackjack, etc.) for in-bot gameplay.
 
-Provide fast, accessible gameplay and economy tools
-
-
-Economy & Gambling Features
-We store user balance and game status temporarily to support features like:
-
-Khla Khlouk Dice Game
-
-Blackjack, Slots
-
-Coin transfers (Ztransfer), daily rewards, and profile tracking
-
-
-Bot Performance & Safety
-Server and user IDs are used to ensure your settings and balances are properly scoped to your server. Anonymized usage data helps us fix bugs and improve the experience.
+Performance & Safety – Metadata ensures proper server-based storage, bug fixes, and stability improvements.
 
 
 
@@ -71,19 +63,18 @@ Server and user IDs are used to ensure your settings and balances are properly s
 
 🔐 Do We Store Your Data?
 
-Message Content:
-❌ No. We do not store message content. It is used in real time to process commands and is then discarded.
+Message Content: ❌ No permanent storage. Only scanned in real time for moderation/command execution.
 
-User & Server Data:
-✅ Yes — user IDs, coins, profile info, and server IDs are temporarily stored off-platform (e.g., MongoDB) to support your economy and profile data.
+User & Server Data: ✅ Stored securely (e.g., MongoDB) to enable economy and security features.
 
-Stored for a maximum of 30 days
+Includes: User IDs, coins, server IDs, profiles.
 
-Encrypted using AES-256 at rest
+Encrypted at rest (AES-256).
+
+Retained max 30 days.
 
 
-Usage Logs:
-✅ Yes — command usage frequency is stored (anonymized) to improve performance. Deleted after 30 days.
+Usage Logs: ✅ Anonymized command usage stats for performance improvements. Deleted after 30 days.
 
 
 
@@ -91,11 +82,11 @@ Usage Logs:
 
 🔄 Can You Request Data Deletion?
 
-Yes. At any time, you may request that we delete your stored data by:
+Yes. You may request deletion of stored data at any time via:
 
-Contacting us via our support server: https://discord.gg/JDEHYsYWBZ
+Support Server: https://discord.gg/JDEHYsYWBZ
 
-Emailing us at: senghongly8828@gmail.com
+Email: senghongly8828@gmail.com
 
 
 Once deleted, your data cannot be recovered.
@@ -105,28 +96,26 @@ Once deleted, your data cannot be recovered.
 
 🤝 Do We Share Your Data?
 
-No. We never sell, share, or transfer your data to third parties. All data is used only for in-bot functionality and stored securely on our systems.
+No. We never sell, rent, or share your data with third parties. Data is only used to operate AsTrazu’s in-bot features.
 
 
 ---
 
-🤖 Do We Use Your Data for AI or Machine Learning?
+🤖 Do We Use Data for AI or Machine Learning?
 
-No. We do not use message content, user data, or any collected information for AI training, machine learning, or profiling.
+No. We do not use message content or user data for AI training, machine learning, or profiling.
 
 
 ---
 
 🚫 How Can You Opt Out?
 
-Message Content:
-Server admins can remove the bot’s permission to read messages in specific channels by adjusting channel permissions.
+Message Content: Server admins can restrict AsTrazu’s read permissions in specific channels.
 
-Stored Data:
-You can request full data deletion using our contact methods listed above.
+Stored Data: Users can request full data deletion at any time using the contact methods above.
 
 
-> Important: Interacting with economy or gambling features requires storing basic user ID and balance data for functionality.
+> Note: Using economy or security features requires storing user ID and balance data for functionality.
 
 
 
@@ -135,13 +124,13 @@ You can request full data deletion using our contact methods listed above.
 
 🔒 Data Security
 
-We take your data security seriously:
+We apply industry-standard security measures:
 
-All sensitive data is encrypted (AES-256)
+AES-256 encryption for stored data.
 
-Access is restricted to bot maintainers only
+Strict access control (bot maintainers only).
 
-We follow Discord’s Developer Policy and secure coding practices
+Compliance with Discord’s Developer Policy and secure coding practices.
 
 
 
@@ -149,18 +138,21 @@ We follow Discord’s Developer Policy and secure coding practices
 
 🔄 Changes to This Policy
 
-We may update this Privacy Policy from time to time. All updates will be posted on our GitHub site and shared via the bot’s help or about command.
-Latest version always available at:
-https://amjustachillguy.github.io/privacy-policy.github.io/
+We may update this Privacy Policy periodically. Updates will be published on:
+
+GitHub Page: https://amjustachillguy.github.io/privacy-policy.github.io/
+
+Via the bot’s help or about command.
+
 
 
 ---
 
 📬 Contact Us
 
-If you have any questions or concerns:
+If you have any questions or concerns about your data:
 
-Support Discord Server: [https://discord.gg/JDEHYsYWBZ](https://discord.gg/JDEHYsYWBZ)
+Support Server: https://discord.gg/JDEHYsYWBZ
 
 Email: senghongly8828@gmail.com
 
@@ -168,7 +160,4 @@ Email: senghongly8828@gmail.com
 
 ---
 
-AsTrazu is committed to offering a fun, fast, and safe experience using only the data needed for functionality — with respect for your privacy.
-
-
----
+✅ AsTrazu is dedicated to providing a safe, secure, and fun experience by only collecting the data required to operate its security, moderation, and economy features.
