@@ -1,6 +1,6 @@
 📜 Privacy Policy for AsTrazu
 
-Last Updated: May 06, 2025
+Last Updated: Aug 31, 2025
 
 Thank you for using AsTrazu! This Privacy Policy explains how we collect, process, and protect your data when you interact with our Discord bot. We are committed to transparency, privacy, and compliance with Discord’s Developer Policy.
 
